@@ -1,6 +1,8 @@
 # Personel-Takip-Programı
 C# ile Personel Takip Uygulaması
 
+![banner resmi](https://r.resimlink.com/cK3ZJSGz4.png)
+
 # Projenin Amacı
 Bir şirketteki personellerin uygulama üzerinden çeşitli yönetimlerin sağlanmasıdır.
 
