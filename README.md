@@ -1,7 +1,7 @@
 # Personel-Takip-Programı
 C# ile Personel Takip Uygulaması
 
-[personel](https://user-images.githubusercontent.com/83423497/175955952-e911825b-fad0-4b33-91be-21c6aeefb6e4.png)
+![personel](https://user-images.githubusercontent.com/83423497/175955901-3cbb1b41-0896-40d9-b5ba-2426c0587abf.png)
 
 
 # Projenin Amacı
@@ -10,7 +10,7 @@ Bir şirketteki personellerin uygulama üzerinden çeşitli yönetimlerin sağla
 # Projenin Windows From Arayüz Sayfaları
 - Admin Paneli
 - Admin İşlemleri
-- Departman İşlemleri![personel](https://user-images.githubusercontent.com/83423497/175955901-3cbb1b41-0896-40d9-b5ba-2426c0587abf.png)
+- Departman İşlemleri
 
 - Personel İşlemleri
 - Personel İzin İşlemleri
