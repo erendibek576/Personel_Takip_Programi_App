@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1DF1C27-EE53-4DED-8E3B-2ABB07A3DFEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BBP201_210111409_Muhammed_Eren_Dibek</RootNamespace>
+    <AssemblyName>BBP201_210111409_Muhammed_Eren_Dibek</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin İşlemleri.Designer.cs">
+      <DependentUpon>Admin İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Paneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Paneli.Designer.cs">
+      <DependentUpon>Admin Paneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Departman İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departman İşlemleri.Designer.cs">
+      <DependentUpon>Departman İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel Kıdem Tazminatı Hesaplama İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel Kıdem Tazminatı Hesaplama İşlemleri.Designer.cs">
+      <DependentUpon>Personel Kıdem Tazminatı Hesaplama İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel Maaş Ödeme İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel Maaş Ödeme İşlemleri.Designer.cs">
+      <DependentUpon>Personel Maaş Ödeme İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel Mesai İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel Mesai İşlemleri.Designer.cs">
+      <DependentUpon>Personel Mesai İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel Takip Programı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel Takip Programı.Designer.cs">
+      <DependentUpon>Personel Takip Programı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel İzin İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel İzin İşlemleri.Designer.cs">
+      <DependentUpon>Personel İzin İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel İşlemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel İşlemleri.Designer.cs">
+      <DependentUpon>Personel İşlemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personel_takip_programı_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>personel_takip_programı_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Veritabanı.cs" />
+    <EmbeddedResource Include="Admin İşlemleri.resx">
+      <DependentUpon>Admin İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Paneli.resx">
+      <DependentUpon>Admin Paneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Departman İşlemleri.resx">
+      <DependentUpon>Departman İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel Kıdem Tazminatı Hesaplama İşlemleri.resx">
+      <DependentUpon>Personel Kıdem Tazminatı Hesaplama İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel Maaş Ödeme İşlemleri.resx">
+      <DependentUpon>Personel Maaş Ödeme İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel Mesai İşlemleri.resx">
+      <DependentUpon>Personel Mesai İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel Takip Programı.resx">
+      <DependentUpon>Personel Takip Programı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel İzin İşlemleri.resx">
+      <DependentUpon>Personel İzin İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel İşlemleri.resx">
+      <DependentUpon>Personel İşlemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="personel_takip_programı_DataSet.xsc">
+      <DependentUpon>personel_takip_programı_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="personel_takip_programı_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>personel_takip_programı_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="personel_takip_programı_DataSet.xss">
+      <DependentUpon>personel_takip_programı_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9226739.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
