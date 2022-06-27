@@ -1,7 +1,7 @@
 # Personel-Takip-Programı
 C# ile Personel Takip Uygulaması
 
-![personel](https://user-images.githubusercontent.com/83423497/175955901-3cbb1b41-0896-40d9-b5ba-2426c0587abf.png)
+
 
 
 # Projenin Amacı
